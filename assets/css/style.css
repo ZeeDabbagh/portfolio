@@ -48,6 +48,7 @@ header {
 .about img {
     float: right;
     border-radius: 75px;
+   
  
 }
 
@@ -74,15 +75,6 @@ header {
     background-color: #C0B9BF;
 }
 
-/* .article h2 {
-    display: inline-block;
-    width: fit-content;
-    float: left;
-    border-right: 2px solid rgb(77, 68, 68);
-    height: 475px;
-    padding-right: 10px;
-} */
-
 .projects {
     flex: 5;
     background-color: #fff;
@@ -106,10 +98,16 @@ header {
 
 .card {
     text-align: center;
-    /* border: solid; */
     border-width: 1px ;
     border-radius: 5px;
     padding: 5px;
+}
+
+form {
+    background-color: #77777735;
+    padding: 10px;
+    border: solid darkgray;
+    border-radius: 5px;
 }
 
 .form input{
@@ -131,6 +129,7 @@ header {
     background-color: #FFD3D6;
     border-radius: 5px;
     border: transparent;
+    
 }
 
 footer {
