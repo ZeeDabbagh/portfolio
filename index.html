@@ -3,21 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=], initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./assets/css/resets.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
+    <!-- Header -->
+    <header class="header">
         <h1>Zainab Dabbagh</h1>
-        <nav>
+        <nav class="nav">
             <ul>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact me</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact-me">Contact</a></li>
             </ul>
         </nav>
-
-
     </header>
+   <!-- Main -->
+    <main>
+        <section class="about" id="about">
+            <hr>
+            <h2>ABOUT ME</h2>
+            <hr>
+            <img src="./assets/images/zainab.jpg" alt="zainab">
+            <p class="about-me">Hi! I'm Zainab.
+            I am currently going through the Columbia/EDx Full Stack Bootcamp.
+            I'm excited to show you what I learned!</p>
+            <h3>Languages</h3>
+            <span id="language-1">HTML</span> <span id="language-2">CSS</span> <span id="language-3">JavaScript</span>
+        </section>
+
+            <article class="article" id="projects">
+                <hr>
+                <h2>PROJECTS</h2>
+                <hr>
+                <div class="projects">
+                    <section class="card">
+                        <a href="https://zeedabbagh.github.io/accessibility-standards-redesign/">
+                        <h3>Accessibility Refractor</h3>
+                        <img src="./assets/images/accessibility-1.png" class="card" id="card-main" alt="project screenshot"/>
+                    </a>
+                    </section>
+                    <section class="card">
+                        <h3>Reflections</h3>
+                        <img src="./assets/images/cloud-reflection.jpeg" class="card" alt="clouds reflection in water"/>
+                    </section>
+                    <section class="card">
+                        <h3>Coastline</h3>
+                        <img src="./assets/images/beach.jpeg" class="card" alt="beach birds eye view"/>
+                    </section>
+                    <section class="card">
+                        <h3>Branch</h3>
+                        <img src="./assets/images/branch.jpeg" class="card" alt="tree branch"/>
+                    </section>
+                    <section class="card">
+                        <h3>Flowers</h3>
+                        <img src="./assets/images/flowers.jpeg" class="card" alt="pink flowers"/>
+                    </section>    
+                </div>
+    
+            </article>
+            
+
+
+        <form class="form" id="contact-me">
+            <hr>
+            <h2>Say Hello!</h2>
+            <hr>
+            <p>
+                <label for="username">Your Name:</label>  
+                <input id="username" type="text" placeholder="Your first and last name"/>
+            </p>
+            <p>    
+                <label for="email">Your Email</label>
+                <input id="email" type="text" placeholder="me@example.com"/>
+            </p>
+            <p>
+                <label for="comment">Your message</label>
+                <textarea id="comment" placeholder="Write your message here"></textarea>
+            </p>
+            <p>
+                <button>SUBMIT</button>
+            </p>
+        </form>
+
+
+    </main>
+    
+    <footer>
+        <a href="https://github.com/ZeeDabbagh/">GitHub</a>
+        <a href="https://www.linkedin.com/in/zaldabbagh/">LinkedIn</a>
+        <a href="https://open.spotify.com/user/12138290326">Spotify</a>
+    </footer>
     
 </body>
-</html>
+</html> 
