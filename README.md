@@ -21,7 +21,7 @@ Use the web app to view my bio and work and to contact me. If you click on any o
 Please refer to the LICENSE in the repo.
 ```
 ## Screenshot
-
+![deployedSS](./assets/images/DeployedSS.png)
 ## Link to Deployed Web App
-
+https://zeedabbagh.github.io/portfolio/
 
